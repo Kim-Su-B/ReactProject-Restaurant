@@ -1,1 +1,6 @@
-# ReactProject-Restaurant
+## Restaurant
+- 식당 목록
+- 식당 상세페이지
+  - 식당 영업정보
+  - 식당 메뉴
+  - 식당 리뷰 + 리뷰 작성
