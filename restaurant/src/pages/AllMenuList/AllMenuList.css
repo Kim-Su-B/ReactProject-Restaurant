@@ -1,0 +1,36 @@
+.AllMenuListMainContainer {
+    padding: 0 20%;
+}
+
+.AllMenuLisPageLine {
+    align-self: stretch;
+    height: 0.13rem;
+    position: relative;
+    background-color: #efefef;
+    margin-top: 1%;
+}
+
+.AllMenuListTitleContainer {
+    display: flex;
+    align-items: center;
+    margin: 2% 0;
+    padding: 0 4%;
+}
+
+.chveronLeftIcon {
+    color: rgb(64, 64, 64);
+    cursor: pointer;
+}
+
+.AllMenuListTitle {
+    width: 50%;
+    margin: 0 auto;
+    font-weight: 600;
+    color: rgb(64, 64, 64);
+    text-align: center;
+}
+
+.AllMenuListItemContainer {
+    padding: 0 4%;
+}
+

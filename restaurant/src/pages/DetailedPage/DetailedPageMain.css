@@ -1,0 +1,120 @@
+.DetailedPageMainContainer {
+    padding: 0 20%;
+  }
+  
+  .DetailedPageMainLine {
+    align-self: stretch;
+    height: 0.13rem;
+    position: relative;
+    background-color: #efefef;
+    margin-top: 1%;
+  }
+  
+  .DetailedPageLine {
+    align-self: stretch;
+    height: 0.13rem;
+    position: relative;
+    background-color: #efefef;
+  }
+  
+  .DetailedPageRestaurantMainContent {
+    display: flex;
+    align-items: stretch;
+    /* 자식 요소들의 높이를 부모 요소에 맞춥니다. */
+  }
+  
+  .RestaurantMainImg,
+  .RestaurantInformationContent {
+    margin: 2% 0;
+    flex: 1; /* 동일한 너비를 가지도록 설정합니다. */
+  }
+  
+  .RestaurantMainImg {
+    margin-left: 5%;
+    margin-right: 1%;
+  }
+  
+  .RestaurantInformationContent {
+    margin-right: 5%;
+    margin-left: 1%;
+  }
+  
+  .RestaurantMainImg img {
+    width: 100%;
+    /* 이미지가 부모 요소에 꽉 차도록 설정합니다. */
+    height: 100%;
+  }
+  
+  .RestaurantMainContent {
+    /* background-color: yellow; */
+    display: flex;
+    padding: 1%;
+    /* align-items: center; 
+      justify-content: center;  */
+  }
+  
+  
+  .restaurantIntroductionContainer,
+  .allMenuContainer,
+  .reviewListContainer,
+  .InformationContainer {
+    padding: 2% 6%;
+  }
+  
+  .restaurantIntroductionTitle,
+  .allMenuTitle,
+  .reviewListTitle,
+  .InformationTitle {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 1%;
+  }
+  
+  .introductionContent {
+    font-size: 0.9rem;
+  }
+  
+  .allMenuBtnContainer {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .allReviewBtnContainer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .allMenuBtn,
+  .allReviewBtn {
+    width: 6.6rem;
+    border: 1px solid #C4C4C4;
+    /* 테두리를 1px 두께로 설정 */
+    border-radius: 30px;
+    padding: 0.4rem 0.5rem;
+    /* 둥글게 만들기 위해 테두리의 반지름을 조절 */
+    background-color: #fff;
+    /* 배경색을 흰색으로 설정 */
+    cursor: pointer;
+    /* 마우스를 가져다 대면 커서 모양 변경 */
+  }
+  
+  .menuBtnText,
+  .allReviewText {
+    font-size: 0.78rem;
+  }
+  
+  .menuBtnGroup,
+  .allReviewBtnGroup {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .menuBtnImg,
+  .allReviewImg {
+    display: flex;
+    align-items: center;
+    padding-top: 0.12rem;
+    /*display:flex , align-items:center 수직 중앙 정렬*/
+  }
+  

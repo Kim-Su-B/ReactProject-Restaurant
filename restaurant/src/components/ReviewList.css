@@ -1,0 +1,49 @@
+.review-container {
+    border: 1px solid #cacaca;
+    border-radius: 10px;
+    padding: 0.4rem;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 2%;
+}
+
+.review-user-name {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.reviewScoreGroup {
+    display: flex;
+    align-items: center;
+    margin-top: 6px; /* 위쪽 간격 조절 */
+    margin-bottom: 10px; /* 아래쪽 간격 조절 */
+}
+
+.reviewScoreNumber {
+    font-size: 0.84rem;
+    font-weight: 600;
+    margin-left: 4px;
+}
+
+.reviewDay {
+    padding-top: 2px; /* 왼쪽 리뷰 점수랑 높낮이 맞추기 */
+    font-size: 0.7rem;
+    width: 20%;
+    margin-left: 10px;
+    color: #747474;
+}
+
+.reviewReport {
+    margin-left: auto;
+    margin-right: 20px;
+    border: none;
+    cursor: pointer;
+    color: rgb(107, 107, 107);
+    outline: none;
+    background-color: white; 
+    font-size: 0.7rem;
+}
+
+.reviewText {
+    font-size: 0.84rem;
+}

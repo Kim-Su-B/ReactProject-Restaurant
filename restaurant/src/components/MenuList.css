@@ -1,0 +1,38 @@
+.menu-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 5%;
+}
+
+.menu-main-group {
+    display: flex;
+    /* border: 1px solid #cacaca;
+    border-radius: 10px; */
+}
+
+.menu-img {
+    width: 150px;
+    height: 130px;
+}
+
+.menu-group {
+    margin-left: 4%;
+}
+
+.menu-name {
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 2%;
+}
+
+.menu-explanation {
+
+    font-size: 0.83rem;
+    margin-bottom: 2%;
+}
+
+.menu-price {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: red;
+}

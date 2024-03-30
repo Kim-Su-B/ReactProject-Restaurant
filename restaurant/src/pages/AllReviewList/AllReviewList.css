@@ -1,0 +1,95 @@
+.AllReviewListMainContainer {
+    padding: 0 20%;
+}
+
+.container-frame-allReviewPage {
+    align-self: stretch;
+    height: 0.13rem;
+    position: relative;
+    background-color: #efefef;
+    margin-top: 1%;
+}
+
+.AllReviewListTitleContainer {
+    display: flex;
+    align-items: center;
+    margin: 2% 0;
+    padding: 0 4%;
+}
+
+.chveronLeftIcon-AllReviewList {
+    color: rgb(64, 64, 64);
+    cursor: pointer;
+}
+
+.AllReviewListTitle {
+    width: 50%;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: rgb(64, 64, 64);
+    text-align: center;
+}
+
+.AllReviewListItemContainer {
+    padding: 0 4%;
+}
+
+.BarChartContainer {
+    margin: 1% 5%;
+    display: flex;
+    align-items: center;
+}
+
+.BarChartContent {
+    display: flex;
+
+    width: 16%;
+}
+
+.ReivewBarChartAverageScore {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-left: 4%;
+}
+
+.testtt {
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-right: 1%;
+}
+
+.BarChartContentText {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.TxtContentContainer {
+    display: flex;
+    margin: 1% 5%;
+}
+
+.TxtContent {
+    width: 50%;
+    font-weight: 600;
+    font-size: 0.86rem;
+    color: rgb(158, 158, 158);
+}
+
+.ReviewTextContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 14%;
+    border-radius: 10px;
+    border: none;
+    background-color: #FFA81E;
+    margin-left: auto;
+}
+
+.ReviewTextContent {
+    margin-right: 6%;
+    font-weight: 600;
+    color: white;
+    font-size: 0.9rem;
+}

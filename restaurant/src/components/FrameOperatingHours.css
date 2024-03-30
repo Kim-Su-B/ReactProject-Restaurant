@@ -1,0 +1,18 @@
+.component-37-icon {
+    position: relative;
+  }
+  .component-null {
+    position: relative;
+    font-weight: 600;
+  }
+  .frame-operating-hours {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0 0.625rem;
+    text-align: left;
+    font-size: var(--font-size-xs);
+    color: var(--color-black);
+    font-family: var(--font-roboto);
+  }

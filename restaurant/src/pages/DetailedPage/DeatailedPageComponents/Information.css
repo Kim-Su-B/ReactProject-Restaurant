@@ -1,0 +1,129 @@
+.InformationMainContainer {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.RestaurantNameContainer,
+.RestaurantAddressContainer,
+.ReviewScoreContainer,
+.InformationSubContainer {
+    width: 100%;
+    /* background-color: antiquewhite; */
+}
+
+.HeartIcon {
+    width: 10%;
+    color: #FFA81E; /* 채워진 하트의 색상 */
+    font-size: 22px; /* 하트 아이콘의 크기 */
+    cursor: pointer;
+}
+
+.RestaurantNameContainer {
+    display: flex;
+    align-items: center;
+}
+
+
+.RestaurantName {
+    width: 90%;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.RestaurantAddressContainer {
+    margin-top: 2%;
+}
+
+.RestaurantAddress {
+    font-size: 0.86em;
+    color: rgb(79, 79, 79);
+}
+
+.ReviewScoreContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 4%;
+}
+
+.ReviewScoreNum {
+    font-size: 0.9rem;
+    color: rgb(40, 40, 40);
+    margin-left: 2%;
+}
+
+.InformationSubContainer {
+    display: block;
+    margin-top: 4%;
+}
+
+.InformationSubTitle {
+    font-weight: 600;
+}
+
+.InformationTimeContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+    font-size: 0.9rem;
+}
+
+
+.BreakTimeContainer,
+.HoliDayContainer,
+.PhoneNumberContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+    font-size: 0.9rem;
+}
+
+.InformationTimeTitle,
+.BreakTimeTitle,
+.HoliDayTitle,
+.PhoneNumberTitle {
+    width: 25%;
+}
+
+.InformationMainButtonGroup {
+    margin-top: 4%;
+    height: 12%;
+    display: flex;
+    justify-content: center;
+}
+
+.ReservationBtnContainer,
+.WaitingBtnContainer {
+    width: 100%;
+}
+
+.ReservationBtnContainer {
+    margin-right: 1%;
+}
+
+.WaitingBtnContainer {
+    margin-left: 1%;
+}
+
+.ReservationBtn {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #FFA81E;
+    cursor: pointer;
+}
+
+.WaitingBtn {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #FFA81E;
+    background: none;
+    cursor: pointer;
+}
